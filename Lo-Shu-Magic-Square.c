@@ -55,6 +55,7 @@ int main() {
     do {
         int numbers[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         
+        // Make a shuffled list
         for (int i = 0; i < 9; i++) {
             int j = rand() % 9;
             int temp = numbers[i];
